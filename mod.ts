@@ -3,7 +3,7 @@ import { Application, log, send } from "./deps.ts";
 
 const app = new Application();
 
-const PORT = 8080;
+const port = 8080;
 
 await log.setup({
   handlers: {
@@ -63,8 +63,8 @@ app.use(async (ctx) => {
 });
 
 if (import.meta.main) {
-  log.info(`Server running on port ${PORT}...`);
+  log.info(`Server running on port ${port}...`);
   await app.listen({
-    port: PORT,
+    port: port,
   });
 }
