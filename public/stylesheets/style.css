@@ -44,7 +44,7 @@ a:focus {
 }
 h1,
 h2 {
-  font-size: 1em;
+  font-size: 1.4em;
   font-weight: normal;
   font-family: "Space Mono", monospace;
 }
@@ -125,17 +125,23 @@ input[type="date"] {
   font-family: inherit;
   font-size: inherit;
   min-width: 15em;
-  margin: 0;
+  margin: 8px;
 }
 
 label {
   white-space: pre;
+  margin-left: 15px;
 }
 
 .submit {
   font-weight: bold;
   padding: 6px 0;
 }
+
+.save-mission {
+  margin: 15px 0 0 14px;
+}
+
 *::-moz-focus-inner {
   padding: 0;
   border: 0;
